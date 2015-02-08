@@ -1,0 +1,235 @@
+﻿/*
+    Document   : menucss
+    Created on : 05.06.2013, 12:33:09
+    Author     : denezhnaya
+    Description:
+        Purpose of the stylesheet follows.
+
+
+
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+
+*/
+
+.menuSmall{
+
+    border-radius:5px;
+    width: 150px;
+    height: 65px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0px 5px 4px -4px rgba(0, 0, 0, 0.4), 10px 4px 10px -8px rgba(0, 0, 0, 0.2), -10px 4px 10px -8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-color:rgba(205, 207, 223, 0.3);
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 1%;
+    padding: 7px;
+}
+
+.menuSmall img{
+
+}
+
+.menuSmall p{
+   margin: 0px;
+   padding: 0px;
+   color:#5d869f;
+   font-weight: bold;
+}
+
+
+.menuSmall:hover{
+    box-shadow: 0px 2px 4px 4px rgba(91, 149, 199, 0.4), 0px 4px 10px -8px rgba(91, 149, 199, 0.2), -10px 4px 10px -8px rgba(0, 0, 0, 0.2),0px 5px 4px -4px rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-color:rgba(91, 149, 199,0.7);
+}
+
+.menuSmall:hover p{
+    color:#b75959;
+}
+
+
+.divMenu{
+    -webkit-box-shadow: 0px 1px 0px 1px #FFF;
+    -o-box-shadow: 0px 1px 0px 1px #FFF;
+    -moz-box-shadow: 0px 1px 0px 1px #FFF;
+    box-shadow: 0px 1px 0px 1px #FFF;
+    height: 60px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    top: 85px;
+    display: table;
+    box-shadow: 0px 5px 4px -4px rgba(0, 0, 0, 0.4), 10px 4px 10px -8px rgba(0, 0, 0, 0.2), -10px 4px 10px -8px rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-color: rgba(254,254,254,0.9);
+    position: absolute;
+    z-index: 12;
+}
+
+.divMenu b{
+    margin-top: -4px;
+}
+
+.menuSmall {
+    border: 1px solid #f0f0f0;
+    color:#FFFFFF;
+    font-size: 9px;
+    text-align: center;
+
+}
+
+.navy{
+    position: relative;
+
+}
+
+.navy div{
+    display: inline-table;
+}
+
+.navy li div ul li a{
+    height:40px;
+}
+
+.navy li a:hover {
+    background: #fff;
+    color: #67a5cd;
+}
+
+.navy li a:hover b{
+    background: #b75959;
+    color: #FFF;
+}
+
+.navy  b {
+    text-align: center;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #5b95c7;
+    color:#FFFFFF;
+    display: table;
+    width:100%;
+}
+
+
+.navy1 li{
+    width:153px;
+    display: list-item;
+    padding: 5px;
+}
+
+.navy1 li a{
+    background: transparent;
+    border:none;
+    padding: 10px;
+    margin-left: 6px;
+    -webkit-box-shadow:0px 0px 0px 0px transparent;
+    -o-box-shadow:0px 0px 0px 0px transparent;
+    -moz-box-shadow:0px 0px 0px 0px transparent;
+    box-shadow:0px 0px 0px 0px transparent;
+    -webkit-transition: height 0s;
+    -moz-transition:height 0s;
+    -o-transition:height 0s;
+    transition:height 0s;
+    width:70%
+}
+
+.menu-icon{
+    margin-left: 30%;
+}
+.navy1 li a:hover{
+    background:transparent;
+    text-decoration: underline
+}
+
+.temp_menu_tab_but{
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+    border: 1px solid #F0F0F0;
+    font-weight: bold;
+    font-size: 14px;
+    width:191px;
+    height: 23px;
+    border-radius:2px;
+}
+
+temp_menu_tab_but:hover .temp_menu_tab_but_ul{
+    display:block;
+}
+
+
+.temp_menu_tab_but_ul{
+    display: none;
+    height:40px;
+    background-color: #fff;
+    width: 190px;
+    border-left: 1px solid #cdc3b7;
+    border-top: 1px solid #cdc3b7;
+    border-right: 1px solid #cdc3b7;
+    border-bottom: 1px solid #cdc3b7;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#dd_link:hover #dd_men{
+    display: block;
+    position: absolute;
+    z-index: 5;
+    cursor: pointer;
+}
+
+#menu{
+/*    width:70%*/
+}
+
+.temp_menu_tab_but:hover{
+    display: block;
+}
+.sub{
+    width:98%;
+    height:100px
+
+}
+
+.sub section article{
+    display: inline-block;
+    padding-left: 20px
+}
+
+.arBubble{
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid rgba(0,85,128,0.6);
+    width:7px;
+    display:inline-block
+}
+
+.spich_bubble{
+    position: relative;
+    background-color:rgba(0,136,204,0.4);
+    width: 500px;
+    height: 50px;
+    line-height: 20px; /* vertically center */
+    color: rgba(241,241,241,0.9);
+    text-align: center;
+    border-radius:5px
+
+}
+
+.spich_bubble:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 15px solid;
+    border-bottom-color: rgba(0,136,204,0.4);
+    bottom: 100%;
+    left: 50%;
+    margin-left: -15px; /* adjust for border width */
+}

@@ -1,0 +1,127 @@
+/* 
+    Document   : analyticsTree
+    Created on : Oct 9, 2014, 12:51:00 PM
+    Author     : denezhnaya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+input{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+
+.buttonEnable{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.iam-tree{
+    padding: 7px;
+    color: #0D4F5C;
+    max-height:700px;
+    overflow: auto;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.iam-table{
+    color: #0D4F5C;
+    overflow: auto;
+    width: 53%;
+    display: inline-block; 
+}
+
+.iam-table tr{
+    border: 1px solid #005262;
+}
+
+.analiticaTableT1{
+    background-color: #FFF;
+}
+
+.analiticaTableT2{
+    background-color: #f0f0f0;
+}
+
+.analiticaTableT1 td a{
+    color: #000;
+    text-decoration: none;
+}
+
+.analiticaTableT2 td a{
+    color: #000;
+    text-decoration: none;
+}
+
+.iam-tree-parent{
+    padding-left: 30px;
+    line-height: 30px;
+}
+
+.iam-tree-parent p{
+    line-height: 15px;
+    margin: 8px;
+    padding-left: 10px;
+}
+
+.iam-tree-expand-level{
+    background-image: url('../img/st_right.png');
+    height: 13px;
+    width: 11px;
+    float: left;
+}
+
+.iam-tree-close-level{
+    background-image: url('../img/st_small.png');
+    height: 12px;
+    width: 11px;
+    float: left;
+}
+
+.iam-tree-child{
+    display: none;
+    list-style-type: none;
+/*    list-style-image: url('../img/check.png');*/
+    line-height: 30px;
+    margin-left: 30px;
+}
+
+.iam-tree-child level1{
+    line-height: 30px;
+}
+
+.iam-tree-child p{
+    padding-left: 15px;
+}
+
+.iam-tree-check{
+    background-image: url('../img/check.png');
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-top: -3px;
+}
+
+.iam-tree-checked{
+    background-image: url('../img/checked.png');
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-top: -3px;
+}
+
+.level1 .iam-tree-child{
+/*    list-style-type: none;
+    list-style-image: none;*/
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.level2{
+    
+}

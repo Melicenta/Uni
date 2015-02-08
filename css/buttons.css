@@ -1,0 +1,98 @@
+/*
+ * Проект:   Universal
+ * Описание: Универсальный Интерфейс пользователя ИАС
+ *
+ * Файл:     buttons.css
+ * Каталог:  guise/snow/css
+ * Created on : Aug 5, 2014, 6:30:20 PM
+ * Author     : denezhnaya
+ *
+ * (C) 2014 СПБ ГУП "Санкт-Петербургский информационно-аналитический центр".
+ * 191040, Россия, Санкт-Петербург, ул. Черняховского, 59.
+ * Все права защищены.
+ *
+ * Материал, содержащийся в данном документе, является конфиденциальной
+ * информацией и принадлежит СПБ ГУП "СПБ ИАЦ" (далее "Владелец").
+ * Любое использование, копирование или распостранение данного материала
+ * без предварительного согласования с Владельцем строго запрещено.
+ */
+
+
+
+.standard-buttons{
+    clear:both;
+    float: right;
+    padding: 1px;
+/*    width:100%;*/
+}
+
+
+.standard-button{
+    padding: 5px;
+    display: inline-block;
+    width: 90px;
+    height: 15px;
+    box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+    background-color: rgba(252, 252, 252, 0.72);
+    text-align: center;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.standard-button:hover{
+    box-shadow: 0px 0px 0px 1px rgba(128, 128, 128, 0.3);
+}
+
+.text-button{
+    cursor: pointer;
+    margin-left: 5px;
+    color: #08C;
+}
+
+.text-button-disabled{
+    color: #545758;
+}
+
+.toggle-buttons-container{
+    width:100%;
+    float:left;
+    text-align: center;
+}
+
+.left-button{
+    
+}
+
+.delimiter{
+    margin-left: 3px;
+}
+
+.component-menu-area{
+    padding: 10px 0 3px 10px;
+    float: right;
+    border-bottom: 1px solid rgba(131, 131, 131, 0.2);
+    margin-bottom: 10px;
+}
+
+.component-menu-item{
+    text-shadow: -2px 1px 5px #D6D6D6;
+    padding: 10px 10px 3px 10px;
+}
+
+
+.component-menu-item a{
+    color: #BFBFBF;
+    text-decoration: none;
+    cursor: default;
+}
+
+.component-menu-item.enabled a{
+    color: #545758;
+    cursor: pointer;
+}
+
+.component-menu-item:hover{
+    box-shadow: inset 0px 2px 2px 0px rgba(0, 0, 0, 0.19);
+}

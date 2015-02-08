@@ -1,0 +1,290 @@
+/* 
+    Document   : layouts
+    Created on : Aug 5, 2014, 6:30:01 PM
+    Author     : denezhnaya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+.dashboard-layout-container{
+    clear: both;
+    box-shadow: 0px 1px 7px -1px rgba(0, 0, 0, 0.3);
+   /* padding: 2px;*/
+    width: 99.8%;
+    margin: auto;
+    min-height: 500px;
+    border-radius: 3px 3px 6px 6px;
+    text-align: center;
+}
+
+.socket-container{
+
+/*    border: 1px rgba(116, 109, 109, 0.52) solid;*/
+    box-shadow:  0px 1px 0px 1px rgba(143, 142, 142, 0.35),0px 0px 3px 1px rgba(143, 142, 142, 0.35); 
+   -moz-box-shadow:  20px 1px 0px 1px rgba(143, 142, 142, 0.35),0px 0px 3px 1px rgba(143, 142, 142, 0.35);
+    box-shadow:  0px 1px 0px 1px rgba(143, 142, 142, 0.35),0px 0px 3px 1px rgba(143, 142, 142, 0.35);
+    border-radius: 7px;
+    position: relative;
+/*    margin-bottom: 5px;*/
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+
+}
+
+
+.active-socket{
+   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container .actual-container .socket-container:not(.active-socket){
+    box-shadow:  0px 1px 0px 1px rgba(143, 142, 142, 0.35),0px 0px 3px 1px rgba(143, 142, 142, 0.35);
+    -webkit-filter: opacity(0.5) saturate(0.9);
+}
+
+.container .actual-container .socket-container:not(.active-socket):hover{
+    box-shadow: inset 2px 0px 14px 1px rgba(172, 172, 172, 0.4),inset -2px 0px 14px 1px rgba(172, 172, 172, 0.3);
+    -webkit-filter: opacity(1) saturate(1);
+}
+
+.container .actual-container .socket-container:not(.active-socket):hover{
+    -webkit-transition: all 1s cubic-bezier(0, 0, 1, 1) 0;
+    -moz-transition: all 1s cubic-bezier(0, 0, 1, 1) 0;
+    -o-transition: all 1s cubic-bezier(0, 0, 1, 1) 0;
+}
+
+
+.widget-container{
+    height:95%;
+    width:96%;
+    margin: 1px;
+    float: left;
+    margin-top: -20px;
+}
+
+
+.active-socket .widget-container{
+    height:85%;
+    width:95%;
+    margin: 3px 3px;
+    float: left;
+}
+
+
+
+.layout-1-single .socket-container{
+    height:728px;
+    width: 99.2%;
+    margin: 7px;
+    display: table;
+}
+
+
+
+/*cascade 3*/
+
+
+
+.layout-3-cascade{
+    white-space: nowrap;
+    padding-top: 7px;
+}
+
+
+.layout-3-cascade .socket-container1{
+    display: inline-block;
+    float: left;
+    width: 59%;
+    height: 734px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+
+.layout-3-cascade .socket-container2{
+    display: inline-block;
+    width: 39.5%;
+    float: right;
+    height: 363px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.layout-3-cascade .socket-container3{
+    display: inline-block;
+    width: 39.5%;
+    float: right;
+    height: 363px;
+    margin-bottom: 7px;
+    margin-right: 7px
+}
+
+
+/*cascade 3*/
+
+
+
+
+/*cascade 4*/
+
+.layout-4-cascade{
+    white-space: nowrap;
+    padding-top: 7px;
+}
+
+.active-socket .layout-4-cascade .widget-container{
+    height: 85%;
+    width: 90%;
+}
+
+.layout-4-cascade .socket-container1{
+/*    display: inline-block;*/
+    float: left;
+    width: 59%;
+    height: 734px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+
+.layout-4-cascade .socket-container2{
+/*    display: inline-block;*/
+    width: 39.5%;
+    height: 240px;
+    float: right;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.layout-4-cascade .socket-container3{
+/*    display: inline-block;*/
+    width: 39.5%;
+    height: 240px;
+    float: right;
+    margin-bottom: 7px;
+    margin-right: 7px
+}
+
+.layout-4-cascade .socket-container4{
+/*    display: inline-block;*/
+    width: 39.5%;
+    height: 240px;
+    float: right;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+/*cascade 4*/
+
+
+
+
+/*equal*/
+
+
+.layout-4-equal{
+    white-space: nowrap;
+    padding-top: 7px;
+}
+
+.layout-4-equal .socket-container{
+    height: 364px;
+}
+
+.layout-4-equal .socket-container1{
+    display: inline-block;
+    width: 49.3%;
+    float:left;
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+
+.layout-4-equal .socket-container2{
+    display: inline-block;
+    width: 49.3%;
+    float:right;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.layout-4-equal .socket-container3{
+    display: inline-block;
+    width: 49.3%;
+    float:left;
+    margin-bottom: 7px;
+    margin-left: 7px;
+}
+
+.layout-4-equal .socket-container4{
+    display: inline-block;
+    width: 49.3%;
+    float:right;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+/*equal*/
+
+
+
+
+/*sandwich*/
+.active-socket .layout-5-sandwich .widget-container{
+    height: 85%;
+    width: 90%;
+}
+
+.layout-5-sandwich{
+    white-space: nowrap; 
+    padding-top: 3px;
+    text-align: center;
+}
+
+.layout-5-sandwich .socket-container1{
+    display: inline-block;
+    height: 240px;
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+
+.layout-5-sandwich .socket-container2{
+    display: inline-block;
+    width: 32.1%;
+    height: 240px;
+    margin-left: 15px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.layout-5-sandwich .socket-container3{
+    display: inline-block;
+    width: 32.1%;
+    height: 240px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+.layout-5-sandwich .socket-container4{
+    display: inline-block;
+    width: 32.1%;
+    height: 240px;
+    margin-right: 15px;
+    margin-bottom: 3px;
+}
+
+.layout-5-sandwich .socket-container5{
+    display: inline-block;
+    width: 98%;
+    height: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+
+/*    float: right;*/
+}
+/*sandwich*/
+
+/*.socket-info-container{
+    position: absolute;
+    bottom: 0px;
+}*/

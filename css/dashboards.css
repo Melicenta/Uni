@@ -1,0 +1,354 @@
+/*
+ * Проект:   Universal
+ * Описание: Универсальный Интерфейс пользователя ИАС
+ *
+ * Файл:     dashboards.css
+ * Каталог:  guise/snow/css
+ * Ревизия:  1.03, 26 мая 2014
+ * Создан:   15 мая 2014
+ * Авторы:   Елена Денежная, Илья Губарев
+ *
+ * (C) 2014 СПБ ГУП "Санкт-Петербургский информационно-аналитический центр".
+ * 191040, Россия, Санкт-Петербург, ул. Черняховского, 59.
+ * Все права защищены.
+ *
+ * Материал, содержащийся в данном документе, является конфиденциальной
+ * информацией и принадлежит СПБ ГУП "СПБ ИАЦ" (далее "Владелец").
+ * Любое использование, копирование или распостранение данного материала
+ * без предварительного согласования с Владельцем строго запрещено.
+ */
+
+
+
+.container{
+    display: block;
+}
+
+.dashboard-container{
+    position: relative;    
+}
+
+.actual-container{
+    /*display: none;*/
+}
+
+.list-container{
+    overflow-y: auto;
+    height: 300px;
+    width:95%;
+    float: left;
+}
+.dashboard-menu-container{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.dashboardTitle{
+    float:left;
+    width:20%;
+    margin-left: 80px;
+}
+
+.dashboardText{
+    float:left;
+    color:#BFBFBF;
+}
+
+.dashboardButton{
+    float:left;
+    display: inline;
+    color:#08c;
+}
+
+.descriptionTitle{
+    clear:both;
+    float:left;
+}
+
+
+.dashboard-info{
+    float: left;
+    font-size: 15px;
+    color: #545758;
+    padding: 4px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.dashboard-info span{
+    float:left;
+    margin-top: 5px;
+}
+
+.info-description{
+    width: 680px;
+    display: block;
+    clear: both;
+    font-size:15px;
+}
+
+.info-title{
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+.info-author{
+    color: #545758;
+    width: 600px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.info-author-label{
+    display: block; 
+    clear: both;
+    color:#202020;
+    font-size: 13px;
+}
+
+
+.interaction-block{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);
+    zoom: 1;
+}
+
+
+#dashboardListHeadlineText{
+    font-size: 17px;
+    font-weight: bold;
+    color: #08C;
+    text-align: center;
+    width: 100%;
+}
+
+.list-div{
+    float: left;
+    clear: both;
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgba(235, 238, 234, 0.4);
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.list-div:hover{
+    background-color: rgba(235, 238, 234, 0.6);
+}
+
+
+.list-container div{
+    width: 99%;
+    /* margin-bottom: 10px; */
+    /* margin-top: 1px; */
+    margin-left: 1px;
+    float: left;
+    clear: both;
+    -webkit-box-shadow: inset 0px 0px 0px 1px rgba(241, 241, 241, 0.88);
+    -o-box-shadow: inset 0px 0px 0px 1px rgba(241, 241, 241, 0.88);
+    -moz-box-shadow: inset 0px 0px 0px 1px rgba(241, 241, 241, 0.88);
+    box-shadow: inset 0px 0px 0px 1px rgba(241, 241, 241, 0.88);
+}
+
+.list-container div:nth-of-type(even){
+    background-color: rgba(241, 241, 241, 0.1);
+}
+
+.list-container div span{
+    margin-left: 3px;
+    line-height: 19px;
+}
+
+.title-text{
+    font-weight: bold;
+    float: left;
+}
+
+.select-button{
+    float:left;    
+}
+
+
+.button.select-button{
+    display: block;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.button.select-button div{
+    font-size: 130px;
+    color: rgba(67, 76, 85, 0.25);
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    height: 80%;
+    left: 30%;
+    right: 30%;
+}
+
+.button.select-button div p {
+    position: relative;
+    top: 30%;
+    bottom: 30%;
+    line-height: 40%;
+}
+
+
+.button.select-button div p b{
+    vertical-align: middle;
+}
+
+/*for high boxes*/
+.layout-3-cascade .socket-container1 .button.select-button div p {
+    position: relative;
+    top: 30%;
+    bottom: 30%;
+    line-height: 150%;
+}
+
+.layout-3-cascade .socket-container1 .button.select-button div p b{
+        vertical-align: middle;
+}
+
+.layout-4-cascade .socket-container1 .button.select-button div p {
+    position: relative;
+    top: 30%;
+    bottom: 30%;
+    height: 40%;
+}
+
+.layout-4-cascade .socket-container1 .button.select-button div p b{
+        vertical-align: middle;
+}
+
+.layout-5-sandwich .button.select-button div p{
+    position: relative;
+    top: 10%;
+    bottom: 30%;
+    line-height: 100%;
+}
+
+.layout-5-sandwich .button.select-button div p b{
+        vertical-align: middle;
+}
+
+/*for high boxes*/
+
+.favor-button-undo{
+    background-image: url('/img/dashboards/favOff.png');
+    float: left;
+    margin-left: 15px;
+    height: 19px;
+    width: 19px;
+    cursor: pointer;
+}
+
+.favor-button-undo:hover{
+    background-image: url('/img/dashboards/favOff_hover.png');
+}
+
+.favor-button-undo:hover {
+    -webkit-transition: background-image 1s cubic-bezier(0, 0, 1, 1) 0;
+    -moz-transition: background-image 1s cubic-bezier(0, 0, 1, 1) 0;
+    -o-transition: background-image 1s cubic-bezier(0, 0, 1, 1) 0;
+    transition: background-image 1s cubic-bezier(0, 0, 1, 1) 0;
+}
+
+.favor-button-do{
+    background-image: url('/img/dashboards/favOn.png');
+    float: left;
+    margin-left:15px;
+    height: 19px;
+    width: 19px;
+    cursor: pointer;
+}
+
+.favor-button-do:hover{
+    background-image: url('/img/dashboards/favOff_hover.png');
+}
+
+.favor-button-do:hover {
+    -webkit-transition: background-image 3s cubic-bezier(0, 0, 1, 1) 0;
+    -moz-transition: background-image 3s cubic-bezier(0, 0, 1, 1) 0;
+    -o-transition: background-image 3s cubic-bezier(0, 0, 1, 1) 0;
+    transition: background-image 3s cubic-bezier(0, 0, 1, 1) 0;
+}
+
+.description-text{
+    float: left;
+    clear: both;
+    text-align: left;
+}
+
+/*.createdon-label{
+    float: left;
+    clear: both;
+    display: inline-block;
+}
+
+.createdon-text{
+    float: left;
+    display: inline-block;
+}*/
+
+.author-label-text{
+    float: left;
+    clear: both;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.author-text{
+    float: left;
+    display: inline-block;
+}
+
+.published-text{
+    float: left;
+    /* clear: both; */
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.created-label-text{
+    float: left;
+    display: inline-block;
+    clear:both;
+}
+
+.created-text{
+    float: left;
+    display: inline-block;
+}
+
+#toggled-boxes-container{
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+}
+
+.toggledItem{
+    display: block;
+    width: 100px;
+    float: left;
+    color: #FFF;
+/*    padding: 5px 5px 0px 5px;*/
+}
+
+
+
+

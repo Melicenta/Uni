@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <!--<link rel="stylesheet" href="css/window.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="css/menu.css" type="text/css">-->
+        <link rel="stylesheet" href="jquery-ui-1.10.4.custom/css/no-theme/jquery-ui-1.10.4.custom.css" type="text/css">
+        <link rel="stylesheet" href="css/uniWindows.css" type="text/css">
+        <link rel="stylesheet" href="css/tree.css" type="text/css">
+        <link rel="stylesheet" href="css/scheme.css" type="text/css">
+        <script type="text/javascript" src="jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+        <script type="text/javascript" src="js/load.js"></script>
+    </head>
+
+    <body>
+
+        <div id="wrap">
+            <div id="header">
+            </div>
+
+            <div class="contAt">
+            
+            <section >
+            <article class="desk-icon-area">
+            
+            <a onclick="loadWindows('landingBox')"><img alt="" src="img/landing.png">Главная</a>
+            <a onclick="loadWindows('DSBox')"><img alt="" src="img/data-selection.png">Выбор данных</a>
+            <a onclick="loadWindows('WBBox')"><img alt="" src="img/work-book.png">Рабочая книга</a>
+            <a onclick="loadWindows('IAMBox')"><img alt="" src="img/iams.png">Аналитика</a>
+            <a onclick="loadWindows('DBBox')"><img alt="" src="img/dashboards.png">Информационные панели</a>
+            
+            </article>
+            
+            <article class="widget-area">
+            <div class="window-container landingBox"></div>
+            <div class="window-container DSBox"></div>
+            <div class="window-container WBBox"></div>
+            <div class="window-container IAMBox"></div>
+            <div class="window-container DBBox"></div>
+            </article>            
+            
+            </section>
+            
+           
+            </div>
+            <div id="padding"></div>
+            
+            
+        </div>
+
+
+
+        <div id="footer">
+            <div id="toggled-boxes-container"></div>
+                    </div>
+        <script type="text/javascript">
+   
+        jQuery(function(){
+          
+         // jQuery('.WBBox').load('ds.html');
+          jQuery('.window-container').draggable({ handle: ".headerTitle" });
+         // jQuery('.window-outer-border-resize-min').draggable({ containment:"body" });
+         // jQuery('.window-outer-border-resize-max').draggable({ containment:"body" });
+
+            });        </script>
+    </body>
+
+</html>

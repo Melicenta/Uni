@@ -1,0 +1,371 @@
+﻿/*
+    Document   : scheme
+    Created on : 22.04.2013, 11:46:34
+    Author     : denezhnaya
+    Description: css for guise/skin='snow'/main.jsp - scheme
+        Purpose of the stylesheet follows.
+*/
+
+
+.mainScheme{
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.mainInformation{
+    color: #0c4766;
+    font-size: 15px;
+}
+
+.mainInformation b{
+    font-size: 20px;
+}
+
+.mainInformation p{
+    margin-top: 20px;
+}
+
+.mainInformation ul{
+    padding: 30px;
+    margin-left: 14%;
+}
+
+.mainInformation ul li{
+    list-style-position: inside;
+    width: 100%;
+    text-align: left;
+    padding-top: 4px;
+}
+
+.subSystem{
+    background-color:rgba(255,255,255,0.5);
+    border-radius:7px;
+    border:1px solid #f0f0f0;
+    margin-bottom: 3px;
+    color:#0088CC;
+    position: relative;
+    display: table;
+    top:0px;
+    bottom:0px;
+}
+
+.leftSubSystems{
+    float: left;
+    width: 77%;
+    background-color: rgba(235, 244, 251, 0.4);
+    display: inline-table;
+    margin-left: 1%;
+    margin-top: 20px;
+    padding-left: 15px;
+    border-radius: 4px;
+}
+
+.subSystemHier p {
+    border-radius: 2px;
+    padding-top: 12px;
+    width: 170px;
+    height: 110px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 0.8em 5px 5px;
+    background-size: cover;
+    color: #08598E;
+    font-weight: bold;
+/*    font-size: 11px;*/
+    vertical-align: bottom;
+}
+
+.subSystemHier p img {
+    box-shadow: none;
+
+}
+
+
+.subSystemHier h1{
+    cursor: pointer;
+    margin-left: 35px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+.subSystem img{
+    vertical-align: top;
+    /*    margin-right: 2px*/
+}
+
+.subSystem div{
+    margin-top: 3px
+}
+
+.subSystem h1{
+    cursor: pointer;
+    margin-left: 35px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#subSystCont{
+    font-size: 14px;
+}
+
+#subSystCont ul{
+    list-style-type: none;
+
+}
+.h1{
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    float: left;
+    width: 100%;
+    cursor:pointer;
+    padding-left: 20px;
+}
+
+
+#output_html{
+    position:relative; top:-40px; left:-50px
+}
+
+
+
+.hideTitle{
+
+    background-color: rgba(214, 226, 235,0.8);
+    vertical-align:middle;
+    /*text-align:center;*/
+    border:2px #c1c1c1 solid;
+    border-radius: 25px/10px ;
+    z-index:1000;
+    position:absolute;
+    padding:15px;
+    top:0;
+    left:0;
+    display:none
+
+}
+
+.title{
+    background-color: rgba(255,255,255,0.6);
+    vertical-align:middle;
+    text-align:center;
+    border:2px  #D6E2EB solid;
+    border-radius: 0px 25px 25px 25px;
+    z-index:1000;
+    position:absolute;
+    padding:4px;
+    /*	top:0;
+	left:0;*/
+    display:none;
+    width:20%
+}
+
+.backSc{
+    background:rgba(250, 248, 247, 0.8);
+    padding-left: 5%;
+}
+
+.subSystemHelp{
+    color: #005262;
+    font-size: 14px;
+    display: none;
+}
+
+
+.subSystemHelpAdvanced{
+    background-color: rgba(255,255,255,0.98);
+    vertical-align:middle;
+    text-align:left;
+    color:#00527A;
+    font-size: 14px;
+    border:1px  #D6E2EB solid;
+    border-radius: 10px 10px 10px 10px;
+    z-index:4;
+    position:absolute;
+    padding:10px;
+    top:30%;
+    left:30%;
+    display:none;
+}
+
+.subSystemHelpAdvanced div {
+    height:400px;
+    width:500px;
+    overflow: auto;
+    cursor: move;
+}
+
+.bt_close{
+    float:right;
+    cursor: pointer
+}
+
+.rightCurrent{
+    width: 72%;
+    display: inline-block;
+    float: left;
+    padding-top: 4px;
+}
+
+.main-tab-container li{
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    text-align: left;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: bold;
+    color: #08C;
+    padding: 5px;
+    border-top: 1px solid rgba(224, 219, 219, 0.3);
+    border-left: 1px solid rgba(224, 219, 219, 0.3);
+    border-right: 1px solid rgba(224, 219, 219, 0.3);
+    border-radius: 5px 5px 0 0;
+    margin-top: 5px;
+    position: relative;
+    top: 1px;
+}
+
+.rightCurrent ul li a{
+    color:#08c;
+
+}
+
+.leftImage{
+    display: inline-block;
+    float: left;
+    width:30%;
+    height:345px;
+}
+
+.rightText{
+    display: inline-block;
+    float: right;
+    text-align: center;
+    width:60%;
+    color:#08c;
+    font-size: 16px;
+}
+
+.rightText span{
+    margin-top: 31px;
+    padding-bottom: 12px;
+    float: left;
+    clear: both; 
+    width: 90%;
+}
+
+
+.aboutSubSystemItem{
+    display: table;
+    float:left;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.72);
+    border-radius: 0 5px 5px 5px;
+    border: 1px solid rgba(224, 219, 219, 0.5);
+    padding: 7.5px;
+    text-align: center;
+}
+
+
+.chosen-tab{
+    background: rgba(255, 255, 255,0.72);
+    
+}
+
+.aboutWindowSub{
+    background-color: rgba(245,245,245,0.8);
+    vertical-align:middle;
+    text-align:center;
+    color:#00527A;
+    font-size: 14px;
+    border:1px  #D6E2EB solid;
+    border-radius: 10px 10px 10px 10px;
+    z-index:1000;
+    position:absolute;
+    padding:10px;
+    top:30px;
+    left:140px;
+    display:none;
+}
+
+.startLoadSelector{
+    float:right;
+    width: 100%;
+    clear:both;
+    text-align: right;
+    color:#c1c1c1;
+}
+
+.selector-enabled{
+    color:#08c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mainArticleLeft{
+   /* background-color: rgba(75,132,216,0.2);*/
+    display: inline-table;
+    float: left;
+    border-radius: 5px;
+    }
+
+
+.mainFooter{
+    float: left;
+    clear: both;
+    background-color: #FEFEFE;
+    width: 95%;
+    text-align: center;
+    border-top: 1px rgba(206, 206, 206, 0.4) solid;
+/*    height: 70px;*/
+}
+
+.mainFooter table{
+/*    border-right: 1px solid #C1C2C5;*/
+    background-color: #FEFEFE;
+}
+
+.mainFooter table a{
+    color:#08c;
+}
+
+.mainFooter td{
+
+    border-left: 1px solid #C1C2C5;
+    font-weight: bold;
+    padding: 2px;
+    width: 15%;
+    vertical-align: top;
+}
+
+
+.mainFooter td:nth-child(1){
+
+    /*border-left: 1px solid #C1C2C5;*/
+    font-weight: bold;
+    padding: 2px;
+    width: 15%;
+    vertical-align: top;
+}
+
+.mainFooter tr :hover{
+    box-shadow: 2px 7px 4px -6px rgba(0, 0, 0, 0.4), -3px -5px 2px -5px rgba(0, 0, 0, 0.2), -10px 4px 10px -8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.mainFooter tr td:hover p{
+    box-shadow: none;
+
+}
+
+.mainFooter tr td:hover a{
+    box-shadow: none;
+
+}
+
+.mainFooter td p{
+    color:#56585E;
+    font-weight: normal;
+    font-size: 10px;
+}

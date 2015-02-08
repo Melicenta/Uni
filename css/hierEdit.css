@@ -1,0 +1,223 @@
+/* 
+    Document   : hierEdit
+    Created on : 30.11.2012, 12:14:50
+    Author     : bolbin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*.hierEditTable{
+    border: 1px #F0F0F0 solid;
+}*/
+
+.staticTd{
+    width: 400px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #F0F0F0;
+    border-radius: 3px;
+    float: left;
+    display: table;
+    clear: both;
+    text-align: right;
+    margin-bottom: 10px;
+    /*    overflow: auto;*/
+}
+
+#hierSearch{
+    display: table;
+}
+
+
+.results{
+    float:left;
+    clear:both;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.even{
+   background-color: #f0f0f0;
+   display: block;
+   border: 1px solid #F0F0F0;
+   padding: 5px;
+   height: 45px;
+}
+
+.odd{
+   display: block;
+   border: 1px solid #F0F0F0;
+   padding: 5px;
+   height: 45px;
+}
+
+.evenTR{
+    background-color: #f0f0f0;
+}
+
+.searchResultMessage{
+   color: #08C;
+   display: block;
+   border: 1px solid #F0F0F0;
+   padding: 5px;
+}
+
+.treeItemHeader{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.treeItemContent {
+    border: 1px solid #CADCE5;
+    background: #FFFFFF ;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.itemHeader {
+    height: 38px;
+    vertical-align: middle;
+    color: #000;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 38px;
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+}
+
+.itemHeader a{
+    color: #000;
+    font-size: 12px;
+}
+
+#hierarchyFilterDiv{
+    position: relative;
+    z-index: 10;
+}
+
+ .itemContent {
+    border: 1px solid #AAA;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.hierEditTable td{
+    font-size: 8pt;
+    text-align: left;
+    padding: 5px;
+    vertical-align: middle;
+    border-left: 1px solid #F0F0F0;
+}
+
+.hierEditTable .header{
+    height: auto;
+}
+
+.hierEditTable .header td{
+    vertical-align: middle;  
+    color: #000;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+
+.hierEditForm{
+    background-color: rgb(245, 245, 245);
+    vertical-align: middle;
+/*    text-align: center;*/
+    color: #00527A;
+    font-size: 14px;
+    border: 1px #D6E2EB solid;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1000;
+    position: absolute;
+    padding: 10px;
+    top:15%;
+    left:15%;
+/*    width:50%;*/
+}
+
+.showDetailsForm{
+    background-color: rgb(245, 245, 245);
+    vertical-align: middle;
+    text-align: center;
+    color: #00527A;
+    font-size: 14px;
+    border: 1px #D6E2EB solid;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1000;
+    position: absolute;
+    display: none;
+    padding: 10px;
+    top:15%;
+    left:15%;
+
+}
+
+.showDetailsForm table td{
+    border: 1px solid #F0F0F0;
+}
+
+ .modal_overlay{
+    position:absolute;
+    z-index:800;
+    left:0;
+    top:0;
+    background-color:rgba(0, 0, 0,0.3);
+  }
+
+
+.hierEditForm2{
+    background-color:#F1F1F1;
+    position: absolute;
+    z-index: 30;
+    top:15%;
+    /*   bottom:40%;*/
+    left:45%;
+    /*   right:45%;*/
+    border: 1px solid #cdc3b7;
+    border-radius: 6px;
+    padding: 35px;
+    font-size: 9pt;
+/*    font-weight: 200;*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color:#08c
+
+
+}
+
+.hierEditForm table{
+    text-align: left;
+    /*    background-color: #9DB3BE;*/
+}
+
+.hierEditForm table td{
+    text-align: left;
+    /*    background-color: #9DB3BE;*/
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.hierEditFormText{
+    border: 1px solid #9DB3BE;
+    width: 80%;
+    height: 20px;
+}
+
+.hierEditForm table td select{
+    border: 1px solid #9DB3BE;
+    width: 80%;
+/*    height: 24px;*/
+}
+
+.filterDivNew{
+    background-color: rgba(253,253,253,0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px solid #cdc3b7;
+    border-radius: 6px;
+    display: none;
+    width: 310px;
+    padding: 10px;
+}

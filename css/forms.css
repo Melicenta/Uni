@@ -1,0 +1,114 @@
+/* 
+    Document   : forms
+    Created on : Aug 8, 2014, 5:15:40 PM
+    Author     : denezhnaya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.dashboard-form{
+    font-size: 14px;
+    margin-top: 30px;
+    width: 40%;
+    float: left;
+/*    border: 1px solid #DFDFDF;*/
+}
+
+.dashboard-preview{
+    width: 300px;
+    border: 1px solid #DFDFDF;
+    margin-top: 65px;
+    float: right;
+    margin-right: 10%;
+    display: inline-block;
+    text-align: center;
+}
+
+.form-field{
+    padding-bottom: 10px;
+    
+}
+
+.form-field input{
+    border: 1px solid #DFDFDF;
+    margin-bottom: 5px;
+    width: 225px;
+}
+
+.form-field select{
+    width:225px;
+    border-color: #DFDFDF;
+}
+
+.form-field label{
+    width: 100%;
+    float: left;
+}
+
+#description{
+    width: 225px;
+    border-color: #DFDFDF;
+}
+
+.widget-form{
+    font-size: 14px;
+    margin-top: 30px;
+    width: 30%;
+    float: left;
+    padding: 2px;
+}
+
+.widget-preview{
+    width: 300px;
+    border: 1px solid #DFDFDF;
+    margin-top: 40px;
+    margin-right: 6%;
+    float: left;
+    display: inline-block;
+}
+
+.dataset-configuration{
+    width: 30%;
+    margin-top: 40px;
+    float: left;
+    display: inline-block;
+    overflow: auto;
+}
+
+.category-form-container span{
+    margin-bottom: 5px;
+    float: left;
+}
+
+.constants-form-container span{
+    margin-bottom: 5px;
+    float: left;
+}
+
+.dimensions-form-container span{
+    margin-bottom: 5px;
+    float: left;
+}
+
+.category-form-container{
+    border: 1px solid #DFDFDF;
+    padding: 2px;
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+.dimensions-form-container{
+    border: 1px solid #DFDFDF;
+    padding: 2px;
+    margin-bottom: 5px;
+    float: left;
+    width: 95%;
+}
+
+.constants-form-container{
+    border: 1px solid #DFDFDF;
+    padding: 2px;
+    margin-bottom: 5px;
+    width: 95%;
+    float: left;  
+}

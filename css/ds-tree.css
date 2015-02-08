@@ -1,0 +1,92 @@
+/* 
+    Document   : ds-tree
+    Created on : Oct 12, 2014, 4:56:32 PM
+    Author     : denezhnaya
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+input{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+
+.buttonEnable{
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.ds-tree{
+    padding: 7px;
+    color: #0D4F5C;
+    max-height:700px;
+    overflow: auto;
+    width: 95%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ds-table{
+    color: #0D4F5C;
+    overflow: auto;
+    width: 53%;
+    display: inline-block; 
+}
+
+.ds-table tr{
+    border: 1px solid #005262;
+}
+
+.ds-tree-parent{
+    line-height: 30px;
+    background-color: rgba(161, 202, 218, 0.04);
+}
+
+.ds-tree-parent p{
+    line-height: 20px;
+/*    margin: 8px;*/
+    padding-left: 10px;
+}
+
+.ds-tree-child{
+/*    display: none;*/
+    list-style-type: none;
+    line-height: 30px;
+    margin-left: 10px;
+    border-left: 1px solid rgba(131, 131, 131, 0.2);
+}
+
+.ds-tree-child level1{
+    line-height: 30px;
+}
+
+.ds-tree-child p{
+    padding-left: 22px;
+    border-bottom: 1px solid rgba(131, 131, 131, 0.2);
+    cursor: pointer;
+}
+
+.ds-tree-check{
+    background-image: url('../img/check.png');
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+.ds-tree-checked{
+    background-image: url('../img/checked.png');
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+.level1 .ds-tree-child{
+/*    list-style-type: none;
+    list-style-image: none;*/
+    line-height: 30px;
+    margin-left: 5px;
+}
+
